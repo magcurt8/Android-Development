@@ -34,20 +34,17 @@ public class CityDet1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.city_det_1, container, false);
-        //use event bus to retrieve current city name and the information about the current weather information
+    
         city=(TextView)view.findViewById(R.id.tvCityName);
         weather=(TextView)view.findViewById(R.id.tvWeatherGeneral);
         weatherImage=(ImageView)view.findViewById(R.id.ivWeather);
 
         Retrofit retrofit=new Retrofit.Builder().
-                //pretty sure this is right, but it may also have a problem
                 baseUrl("http://api.openweathermap.org/data/2.5/").
                 addConverterFactory(GsonConverterFactory.create()).
                 build();
 
         final WeatherAPI weatherAPI= retrofit.create(WeatherAPI.class);
-
-                //not sure if the getName parameters are correct
                 Call<Details> weatherQuery= weatherAPI.getName("Budapest","metrics","4e63614312494535b18dd3e4ef47860b");
                 weatherQuery.enqueue(new Callback<Details>() {
                     @Override
