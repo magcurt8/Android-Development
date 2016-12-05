@@ -29,7 +29,6 @@ public class WeatherAdapter extends RecyclerView.Adapter<WeatherAdapter.ViewHold
 
     public WeatherAdapter(Context context) {
         this.context = context;
-        //delete this when done testing code
         for (int j = 0; j < 1; j++) {
             cities.add(new City("City: " + j));
         }
@@ -45,7 +44,6 @@ public class WeatherAdapter extends RecyclerView.Adapter<WeatherAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(final ViewHolder holder,final int position) {
-        //probably have to change this to retrofit information
         holder.tvCity.setText(cities.get(position).getCity());
         holder.ivDetails.setOnClickListener(new View.OnClickListener() {
                     @Override
