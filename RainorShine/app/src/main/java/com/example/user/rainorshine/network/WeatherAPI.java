@@ -11,8 +11,6 @@ import retrofit2.http.Query;
  * Created by user on 2016. 05. 10..
  */
     public interface WeatherAPI {
-    //I think this is correct but i may have messed up something in the query calls
         @GET("weather")
         Call<Details>getName(@Query("q")String name,@Query("units")String metric,@Query("appid")String id );
-
     }
