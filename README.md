@@ -2,6 +2,7 @@
 Android Development Course Projects
 
 RainOrShine
+------
 Basic weather application that utilizes openweathermap API to allow users to search for cities and receive weather.
 
 Android Widgets: Floating Action Button, SnackBar, LinearLayoutManager, RecyclerView, NavigationView, DrawerLayout, Toolbar, Toast
@@ -18,15 +19,17 @@ o Add city
 o About (displays the author of the application on a Toast message).
 The details Activity appears when a city name is clicked. It holds a ViewPager with two fragments. The first fragment displays the main 
 weather information with an icon/image that refers to the weather, while the second fragment shows more details
-------
+
 AndWallet
+------
 Simple wallet application that allows users to add income and add payments and calculates sum of their wallet
 Graphics: Color
 Widget: Button, ImageView, TextView, EditText
 View: LayoutInflater
 External: ButterKnife
-------
+
 ShoppingList
+------
 List of items with category, icon, name, description, price, bought/not
 Android Widgets: Intents, Spinner, ArrayAdapter
 RDBMS: SugarORM
