@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="menu_add_todo">Add name</string>
+    <string name="hint_add_todo">Todo text</string>
+    <string name="cb_is_done">Is bought</string>
+    <string name="button_save">Save</string>
+    <string name="error_field_empty">This field can not be empty!</string>
+    <string name="button_edit">Edit</string>
+    <string name="text_cancelled">Action cancelled</string>
+    <string name="btnEditText">Edit</string>
+    <string name="btnDeleteText">Delete</string>
+    <string name="btnDetailsText">View Details</string>
+    <string name="cbPurchText">Purchased</string>
+    <string name="removeDeets">Remove Details</string>
+    <string name="viewDeets">View Details</string>
+    <string-array name="types_array">
+        <item>Grocery</item>
+        <item>Electronics</item>
+        <item>Books</item>
+    </string-array>
+</resources>
