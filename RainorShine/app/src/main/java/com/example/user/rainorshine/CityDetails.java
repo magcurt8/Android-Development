@@ -10,7 +10,6 @@ import com.bumptech.glide.Glide;
 import com.example.user.rainorshine.fragment.FragmentAdapter;
 
 public class CityDetails extends AppCompatActivity {
-    //THIS SECTION WILL BE IN SUBLIME TEXT FOR NOW
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

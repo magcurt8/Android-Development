@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndWallet</string>
+    <string name="enterText">Enter</string>
+    <string name="incomeText">Income</string>
+    <string name="invalidInputText">Please enter a type</string>
+    <string name="deleteAllButton">Delete All</string>
+    <string name="amountText">Please enter an amount</string>
+    <string name="summaryString">Summary:%1$d</string>
+</resources>
